@@ -54,3 +54,18 @@ processes[maxIndex].id);
  input.close();
  }
 }
+
+
+
+The given code implements the Bully Algorithm for leader election in a distributed 
+system.
+1. The Process class defines a process with an ID and a boolean active flag that 
+indicates whether the process is currently participating in the election.
+2. The BullyAlgorithm class initializes an array of Process objects, with each 
+object representing a process in the distributed system. The total number of 
+processes is passed as a parameter to the constructor.
+3. The election method is the main algorithm that is called when a process 
+initiates an election. The method takes as input the ID of the process that 
+initiated the election.
+4. The method first prints out a message indicating which process initiated the 
+election.
